@@ -1,0 +1,123 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 60px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color:  #CD853F;
+}
+
+.menu{
+    float: right;
+
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #A52A2A;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20x;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #D2691E;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #CD853F;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru{
+    background: #CD853F;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+a.tbl-biru:hover{
+    background: #DEB887;
+    text-decoration: none;
+
+}
+
+a.tbl-pink{
+    background: #DEB887;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
