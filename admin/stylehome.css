@@ -1,0 +1,53 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #DEB887;
+    margin: auto;
+}
+.textlogo{
+    color: #ecf0f1;
+    line-height: 75px;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 35pt;
+    margin: auto;
+    padding-left: 90px;
+}
+.boxlogin{
+    padding-top: 15px;
+}
+.hero{
+    width: 100%;
+    height: 90%;
+    padding: 50px 0px 0px 100px;
+    background-color:   #FFEBCD;
+}
+
+h1{ 
+    color:  #D2691E;
+    line-height: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18pt;
+    font-weight: 300;
+    margin: center;
+    padding: center;
+}
+.texthero{
+    color:      #CD853F;
+    line-height: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45pt;
+    font-weight: bolder;
+    margin: auto;
+}
